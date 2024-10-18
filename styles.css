@@ -1,0 +1,96 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+}
+
+
+.servicios {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.servicios h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.servicio {
+  margin-bottom: 20px;
+}
+
+.servicio h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.contacto-link {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+  .servicio {
+    display: inline-block;
+    width: 30%;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header img.logo {
+    width: 200px;
+  }
+}
